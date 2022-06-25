@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/me",
+    "pages/index/jiexi",
+    "pages/index/vedio"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "铭佐视频",
+    "navigationBarBackgroundColor": "#ECE9E8",
+    "backgroundColor": "#2c2c2c"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#07C160",
+    "backgroundColor": "#ECE9E8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeup.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/me",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/meup.png",
+        "text": "推荐"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "调用接口"
+    }
+  },
+  "usingComponents": {}
+}

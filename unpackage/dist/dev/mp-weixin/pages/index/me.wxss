@@ -1,0 +1,28 @@
+
+.fed-list-info .fed-list-score {
+    position: absolute;
+    top: .3125rem;
+    left: -.3125rem;
+    padding: 0 .3125rem;
+}
+.fed-head-info .fed-pops-navbar .fed-this ._a:before, .fed-swip-this, .fed-back-green {
+    background-color: #0bbe06!important;
+}
+.fed-font-xii {
+    font-size: .75rem!important;
+}
+#fenshu:before{
+    
+       content: "";
+       border-top: .25rem solid #0bbe06;
+	   position: absolute;
+	   left: .0625rem;
+	   bottom: -.25rem;
+	   border-top: .25rem solid #0bbe06;
+	   border-left: .25rem solid transparent;
+}
+
+
+	
+	
+
